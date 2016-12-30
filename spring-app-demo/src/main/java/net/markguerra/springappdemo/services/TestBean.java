@@ -1,4 +1,4 @@
-package net.markguerra.springappdemo.model;
+package net.markguerra.springappdemo.services;
 
 import org.springframework.stereotype.Component;
 

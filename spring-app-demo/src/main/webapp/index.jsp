@@ -1,4 +1,4 @@
-<jsp:useBean id="testBean" class="net.markguerra.springappdemo.model.TestBean"/>
+<jsp:useBean id="testBean" class="net.markguerra.springappdemo.services.TestBean"/>
 
 <html>
 <body>
