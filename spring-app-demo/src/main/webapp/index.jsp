@@ -1,3 +1,5 @@
+<jsp:useBean id="testBean" class="net.markguerra.springappdemo.model.TestBean"/>
+
 <html>
 <body>
 <h2>Hello World!</h2>
@@ -17,3 +19,6 @@
 		return result;
 	}
 %>
+
+<p>The following content comes from a bean:
+<%=testBean.testMessage() %>
