@@ -1,4 +1,4 @@
-<jsp:useBean id="testBean" class="net.markguerra.springappdemo.services.TestBean"/>
+<jsp:useBean id="exampleBean" class="net.markguerra.springappdemo.services.ExampleBean"/>
 
 <html>
 <body>
@@ -21,4 +21,4 @@
 %>
 
 <p>The following content comes from a bean:
-<%=testBean.testMessage() %>
+<%=exampleBean.testMessage() %>
