@@ -28,7 +28,7 @@ public class ConsoleApp {
 		consoleApp.runApp(args);
 
 		// Close the spring context when the app is done executing
-		((ConfigurableApplicationContext)context).close();
+		((ConfigurableApplicationContext) context).close();
 	}
 
 	public void runApp(String[] args) {

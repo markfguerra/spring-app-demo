@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import net.markguerra.springappdemo.constants.AppConstants;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {AppConstants.SPRING_CONTEXT})
+@ContextConfiguration(locations = { AppConstants.SPRING_CONTEXT })
 public class TestExampleBean {
 	@Autowired
 	private ExampleBean exampleBean;

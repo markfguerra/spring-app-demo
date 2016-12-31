@@ -1,13 +1,21 @@
-<jsp:useBean id="exampleBean" class="net.markguerra.springappdemo.services.ExampleBean"/>
-
+<jsp:useBean id="exampleBean"
+	class="net.markguerra.springappdemo.services.ExampleBean" />
 <html>
+<head></head>
 <body>
-<h2>Hello World!</h2>
+	<h2>Hello World!</h2>
 
-<p>Let's do some tricks with Java</p>
+	<p>Let's do some tricks with Java</p>
 
-<p>The following number is the result of a server side calculation:
-<%=simpleMath() %> </p>
+	<p>
+		The following number is the result of a server side calculation:
+		<%=simpleMath()%>
+	</p>
+
+	<p>
+		The following content comes from a bean:
+		<%=exampleBean.testMessage()%>
+	</p>
 </body>
 </html>
 
@@ -19,6 +27,3 @@
 		return result;
 	}
 %>
-
-<p>The following content comes from a bean:
-<%=exampleBean.testMessage() %>
