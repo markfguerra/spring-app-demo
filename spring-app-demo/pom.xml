@@ -5,6 +5,11 @@
   <artifactId>spring-app-demo</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <spring.version>4.3.5.RELEASE</spring.version>
+  </properties>
+
   <name>spring-app-demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -22,17 +27,17 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>4.3.5.RELEASE</version>
+      <version>${spring.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>4.3.5.RELEASE</version>
+      <version>${spring.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>4.3.5.RELEASE</version>
+      <version>${spring.version}</version>
     </dependency>
   </dependencies>
   <build>
