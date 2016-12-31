@@ -7,8 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import net.markguerra.springappdemo.constants.AppConstants;
+
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:applicationContext.xml"})
+@ContextConfiguration(locations = {AppConstants.SPRING_CONTEXT})
 public class TestExampleBean {
 	@Autowired
 	private ExampleBean exampleBean;
